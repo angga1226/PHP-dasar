@@ -1,0 +1,25 @@
+.h1 {
+	text-align: center;
+}
+
+.margin {
+	margin: 0 auto;
+}
+.button {
+  background-color: #4CAF50; /* warna latar belakang tombol */
+  border: none; /* hapus border */
+  color: white; /* warna teks */
+  padding: 12px 24px; /* jarak padding pada tombol */
+  text-align: center; /* posisi teks */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s; /* durasi transisi efek hover */
+  border-radius: 50px;
+}
+
+.button:hover {
+  background-color: #3e8e41; /* warna latar belakang tombol saat dihover */
+}
